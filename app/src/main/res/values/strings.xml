@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android-firebase-auth-java</string>
+    <string name="email">Почта</string>
+    <string name="password">Пароль</string>
+    <string name="login">Войти</string>
+    <string name="register">Зарегистрироваться</string>
+    <string name="account_exists_false">Нет аккаунта? Зарегистрируйтесь</string>
+    <string name="account_exists_true">Уже есть аккаунт? Войдите</string>
+</resources>
