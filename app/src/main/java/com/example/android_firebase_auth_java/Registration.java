@@ -15,13 +15,14 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.button.MaterialButton;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 
 public class Registration extends AppCompatActivity {
     FirebaseAuth mAuth;
     EditText email, password;
-    Button buttonRegister;
+    MaterialButton buttonRegister;
     ProgressBar progressBar;
     TextView textViewAlreadyRegistered;
 
