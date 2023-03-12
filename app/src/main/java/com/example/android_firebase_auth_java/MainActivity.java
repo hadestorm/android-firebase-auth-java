@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     FirebaseAuth auth;
     FirebaseUser user;
     Button logoutButton;
+    Button settingsButton;
     TextView userDetails;
 
     @Override
@@ -25,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
         auth = FirebaseAuth.getInstance();
         logoutButton = findViewById(R.id.logoutButton);
+        settingsButton = findViewById(R.id.settingsButton);
         userDetails = findViewById(R.id.userEmailData);
         user = auth.getCurrentUser();
 
@@ -39,6 +41,12 @@ public class MainActivity extends AppCompatActivity {
         logoutButton.setOnClickListener(view -> {
             FirebaseAuth.getInstance().signOut();
             Intent intent = new Intent(getApplicationContext(), Login.class);
+            startActivity(intent);
+            finish();
+        });
+
+        settingsButton.setOnClickListener(view -> {
+            Intent intent = new Intent(getApplicationContext(), Settings.class);
             startActivity(intent);
             finish();
         });
