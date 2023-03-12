@@ -7,4 +7,10 @@
     <string name="account_exists_false">Нет аккаунта? Зарегистрируйтесь</string>
     <string name="account_exists_true">Есть аккаунт? Войдите</string>
     <string name="logout">Выйти</string>
+    <string name="system_theme">Системная</string>
+    <string name="light_theme">Светлая</string>
+    <string name="dark_theme">Тёмная</string>
+    <string name="settings">Настройки</string>
+    <string name="goback">Назад</string>
+    <string name="change_language">Сменить язык</string>
 </resources>
